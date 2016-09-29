@@ -14,6 +14,12 @@
 		E9EB02681D9B86FF00694B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EB02661D9B86FF00694B6F /* LaunchScreen.storyboard */; };
 		E9EB02731D9B86FF00694B6F /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB02721D9B86FF00694B6F /* SlideshowAppTests.swift */; };
 		E9EB027E1D9B86FF00694B6F /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB027D1D9B86FF00694B6F /* SlideshowAppUITests.swift */; };
+		E9FF7AAA1D9C82C600477028 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF7AA91D9C82C600477028 /* ZoomViewController.swift */; };
+		E9FF7AB11D9C951D00477028 /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FF7AAF1D9C951D00477028 /* photo1.jpg */; };
+		E9FF7AB21D9C951D00477028 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FF7AB01D9C951D00477028 /* photo2.jpg */; };
+		E9FF7AB61D9C973800477028 /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FF7AB31D9C973800477028 /* photo3.jpg */; };
+		E9FF7AB71D9C973800477028 /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FF7AB41D9C973800477028 /* photo4.jpg */; };
+		E9FF7AB81D9C973800477028 /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FF7AB51D9C973800477028 /* photo5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		E9EB02791D9B86FF00694B6F /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EB027D1D9B86FF00694B6F /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		E9EB027F1D9B86FF00694B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FF7AA91D9C82C600477028 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		E9FF7AAF1D9C951D00477028 /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		E9FF7AB01D9C951D00477028 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		E9FF7AB31D9C973800477028 /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		E9FF7AB41D9C973800477028 /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		E9FF7AB51D9C973800477028 /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +89,16 @@
 		E9EB02511D9B86FF00694B6F = {
 			isa = PBXGroup;
 			children = (
+				E9FF7AA91D9C82C600477028 /* ZoomViewController.swift */,
 				E9EB025C1D9B86FF00694B6F /* SlideshowApp */,
 				E9EB02711D9B86FF00694B6F /* SlideshowAppTests */,
 				E9EB027C1D9B86FF00694B6F /* SlideshowAppUITests */,
 				E9EB025B1D9B86FF00694B6F /* Products */,
+				E9FF7AAF1D9C951D00477028 /* photo1.jpg */,
+				E9FF7AB01D9C951D00477028 /* photo2.jpg */,
+				E9FF7AB31D9C973800477028 /* photo3.jpg */,
+				E9FF7AB41D9C973800477028 /* photo4.jpg */,
+				E9FF7AB51D9C973800477028 /* photo5.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,6 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FF7AB81D9C973800477028 /* photo5.jpg in Resources */,
+				E9FF7AB71D9C973800477028 /* photo4.jpg in Resources */,
+				E9FF7AB61D9C973800477028 /* photo3.jpg in Resources */,
+				E9FF7AB21D9C951D00477028 /* photo2.jpg in Resources */,
+				E9FF7AB11D9C951D00477028 /* photo1.jpg in Resources */,
 				E9EB02681D9B86FF00694B6F /* LaunchScreen.storyboard in Resources */,
 				E9EB02651D9B86FF00694B6F /* Assets.xcassets in Resources */,
 				E9EB02631D9B86FF00694B6F /* Main.storyboard in Resources */,
@@ -257,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9EB02601D9B86FF00694B6F /* ViewController.swift in Sources */,
+				E9FF7AAA1D9C82C600477028 /* ZoomViewController.swift in Sources */,
 				E9EB025E1D9B86FF00694B6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +506,7 @@
 				E9EB02841D9B86FF00694B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9EB02851D9B86FF00694B6F /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				E9EB02871D9B86FF00694B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9EB02881D9B86FF00694B6F /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				E9EB028A1D9B86FF00694B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
